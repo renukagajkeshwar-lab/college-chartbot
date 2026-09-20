@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>P.R. Pote AI Assistant</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="app-shell">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-logo">P</div>
+
+            <div>
+                <h2>P.R. POTE</h2>
+                <span>AI COLLEGE ASSISTANT</span>
+            </div>
+        </div>
+
+        <div class="status-card">
+            <span class="status-dot"></span>
+            <div>
+                <strong>Official Data</strong>
+                <small>Connected</small>
+            </div>
+        </div>
+
+        <nav class="menu">
+
+            <button class="menu-btn active" data-question="Tell me about the college">
+                <span>🏫</span>
+                College
+            </button>
+
+            <button class="menu-btn" data-question="Show all departments">
+                <span>🎓</span>
+                Departments
+            </button>
+
+            <button class="menu-btn" data-question="Tell me about AIML">
+                <span>🤖</span>
+                AIML
+            </button>
+
+            <button class="menu-btn" data-question="AIML HOD">
+                <span>👔</span>
+                HODs
+            </button>
+
+            <button class="menu-btn" data-question="AIML faculty">
+                <span>👨‍🏫</span>
+                Faculty
+            </button>
+
+            <button class="menu-btn" data-question="What facilities are available?">
+                <span>🏢</span>
+                Facilities
+            </button>
+
+            <button class="menu-btn" data-question="Show syllabus">
+                <span>📘</span>
+                Syllabus
+            </button>
+
+            <button class="menu-btn" data-question="Show timetable">
+                <span>📅</span>
+                Timetable
+            </button>
+
+            <button class="menu-btn" data-question="Tell me about exams">
+                <span>📝</span>
+                Exams
+            </button>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="developer-mini">
+                <span>Designed & Developed by</span>
+                <strong>Renuka Ram Gajkeshwar</strong>
+            </div>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+
+            <div>
+                <div class="eyebrow">P.R. POTE PATIL COLLEGE</div>
+                <h1>College AI Assistant</h1>
+            </div>
+
+            <div class="top-actions">
+
+                <button id="voiceAnswerBtn" class="icon-btn active"
+                        title="AI Voice Answer">
+                    🔊
+                </button>
+
+                <button id="themeBtn" class="icon-btn"
+                        title="Change theme">
+                    🌙
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- AI AREA -->
+        <section class="ai-stage">
+
+            <div class="ai-glow"></div>
+
+            <div id="aiOrb" class="ai-orb">
+
+                <div class="orb-ring ring-one"></div>
+                <div class="orb-ring ring-two"></div>
+
+                <div class="orb-core">
+                    <span class="orb-symbol">✦</span>
+                </div>
+
+            </div>
+
+            <div id="aiState" class="ai-state">
+                <span class="state-dot"></span>
+                READY TO HELP
+            </div>
+
+            <h2 id="aiGreeting">
+                Hello! I'm your College AI Assistant.
+            </h2>
+
+            <p id="aiSubtitle">
+                Ask me anything about P.R. Pote Patil College.
+            </p>
+
+        </section>
+
+
+        <!-- CHAT -->
+        <section class="chat-container">
+
+            <div id="chatMessages" class="chat-messages">
+
+                <div class="message bot-message">
+                    <div class="avatar">✦</div>
+
+                    <div class="bubble">
+                        <div class="bubble-title">
+                            P.R. Pote AI
+                        </div>
+
+                        <div>
+                            Hello! 👋 I can help you with
+                            departments, HODs, faculty, courses,
+                            facilities, syllabus, timetable and exams.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- QUICK ACTIONS -->
+            <div class="quick-actions">
+
+                <button data-question="Who is the HOD of AIML?">
+                    👔 AIML HOD
+                </button>
+
+                <button data-question="Show all departments">
+                    🎓 Departments
+                </button>
+
+                <button data-question="What facilities are available?">
+                    🏢 Facilities
+                </button>
+
+                <button data-question="Show syllabus">
+                    📘 Syllabus
+                </button>
+
+                <button data-question="Show timetable">
+                    📅 Timetable
+                </button>
+
+            </div>
+
+
+            <!-- INPUT -->
+            <div class="input-area">
+
+                <button id="micBtn"
+                        class="mic-btn"
+                        title="Voice input">
+                    🎤
+                </button>
+
+                <input
+                    id="userInput"
+                    type="text"
+                    placeholder="Ask about your college..."
+                    autocomplete="off"
+                >
+
+                <button id="sendBtn" class="send-btn">
+                    ➤
+                </button>
+
+            </div>
+
+            <div class="voice-status" id="voiceStatus">
+                Voice input is OFF
+            </div>
+
+        </section>
+
+
+        <!-- OFFICIAL LINKS -->
+        <section class="official-links">
+
+            <a href="https://prpotepatilengg.ac.in/"
+               target="_blank">
+                🌐 Official College Website
+            </a>
+
+            <a href="https://academics.prpotepatilengg.ac.in/"
+               target="_blank">
+                📘 Academic & Syllabus
+            </a>
+
+            <a href="https://examcell.prpotepatilengg.ac.in/"
+               target="_blank">
+                📅 Exam & Timetable
+            </a>
+
+        </section>
+
+
+        <footer>
+            <strong>P.R. POTE • AI ASSISTANT</strong>
+            <span>Developed by Renuka Ram Gajkeshwar ✨</span>
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+{
+  "departments": [
+    {
+      "name": "Computer Science & Engineering",
+      "aliases": [
+        "cse",
+        "computer science engineering",
+        "computer science"
+      ],
+      "hod": "Dr. Vijay B. Gadicha",
+      "degree": "B.Tech",
+      "duration": "4 Years",
+      "intake": 180,
+      "source": "https://prpotepatilengg.ac.in/cse"
+    },
+    {
+      "name": "Computer Science & Engineering (AIML)",
+      "aliases": [
+        "aiml",
+        "cse aiml",
+        "cse (aiml)",
+        "artificial intelligence machine learning"
+      ],
+      "hod": "Dr. Zeeshan I. Khan",
+      "degree": "B.Tech",
+      "duration": "4 Years",
+      "intake": 180,
+      "source": "https://prpotepatilengg.ac.in/aiml"
+    },
+    {
+      "name": "Artificial Intelligence & Data Science",
+      "aliases": [
+        "aids",
+        "ai&ds",
+        "ai ds",
+        "ai data science",
+        "artificial intelligence data science"
+      ],
+      "hod": "Dr. Ajay B. Gadicha",
+      "degree": "B.Tech",
+      "source": "https://prpotepatilengg.ac.in/ai-ds"
+    },
+    {
+      "name": "Electronics & Telecommunication Engineering",
+      "aliases": [
+        "extc",
+        "electronics",
+        "telecommunication"
+      ],
+      "hod": "Dr. Umesh W. Hore",
+      "degree": "B.Tech",
+      "intake": 120,
+      "source": "https://prpotepatilengg.ac.in/extc"
+    },
+    {
+      "name": "Electrical Engineering",
+      "aliases": [
+        "electrical",
+        "ee",
+        "eee"
+      ],
+      "hod": "Prof. Hemant S. Kulat",
+      "degree": "B.Tech",
+      "intake": 60,
+      "source": "https://prpotepatilengg.ac.in/electrical"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "aliases": [
+        "mechanical",
+        "me"
+      ],
+      "hod": "Dr. Somdatta M. Tondre",
+      "degree": "B.Tech",
+      "source": "https://prpotepatilengg.ac.in/mechanical"
+    },
+    {
+      "name": "Civil Engineering",
+      "aliases": [
+        "civil",
+        "ce"
+      ],
+      "hod": "Dr. Sachin S. Saraf",
+      "degree": "B.Tech",
+      "intake": 60,
+      "source": "https://prpotepatilengg.ac.in/civil"
+    },
+    {
+      "name": "MBA",
+      "aliases": [
+        "mba"
+      ],
+      "hod": "Prof. Sagar R. Shah",
+      "degree": "MBA",
+      "duration": "2 Years / 4 Semesters",
+      "source": "https://prpotepatilengg.ac.in/mba"
+    },
+    {
+      "name": "MCA",
+      "aliases": [
+        "mca"
+      ],
+      "hod": "Prof. Aparna Bhande",
+      "degree": "MCA",
+      "source": "https://prpotepatilengg.ac.in/mca"
+    },
+    {
+      "name": "Applied Science & Humanities",
+      "aliases": [
+        "ash",
+        "as&h",
+        "applied science",
+        "humanities"
+      ],
+      "hod": "Dr. Sarika A. Bhojne",
+      "source": "https://prpotepatilengg.ac.in/"
+    }
+  ]
+}

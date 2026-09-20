@@ -1,0 +1,50 @@
+{
+  "college_name": "P. R. Pote Patil College of Engineering & Management",
+  "city": "Amravati",
+  "state": "Maharashtra",
+  "country": "India",
+  "established": 2008,
+  "status": "Autonomous Institute",
+  "chairman": "Pravin Pote Patil",
+  "vice_chairman": "Shreyash Pote Patil",
+  "director": "Dr. Prakash M. Khodke",
+  "principal": "Dr. P. M. Jawandhiya",
+  "vice_principal": "Dr. Mohammad Zuhair",
+  "address": "P. R. Pote Patil Educational Group, Pote Patil Road, Amravati, Maharashtra, India - 444604",
+  "official_website": "https://prpotepatilengg.ac.in/",
+  "about_url": "https://prpotepatilengg.ac.in/about-college",
+  "admission_contacts": [
+    "9371132222",
+    "9371142222",
+    "9371152222",
+    "9823962311",
+    "9503611038"
+  ],
+  "facilities": [
+    "R&D Cell",
+    "Classrooms",
+    "Library",
+    "Seminar & Yoga Center",
+    "Sports & Medical",
+    "Transportation",
+    "Canteen",
+    "Auditorium",
+    "Bank ATM",
+    "Green Policy",
+    "Divyangjan Policy",
+    "E-Waste Policy",
+    "PCS Facility"
+  ],
+  "departments": [
+    "Computer Science & Engineering",
+    "Computer Science & Engineering (AIML)",
+    "Artificial Intelligence & Data Science",
+    "Electronics & Telecommunication Engineering",
+    "Electrical Engineering",
+    "Mechanical Engineering",
+    "Civil Engineering",
+    "MBA",
+    "MCA",
+    "Applied Science & Humanities"
+  ]
+}
